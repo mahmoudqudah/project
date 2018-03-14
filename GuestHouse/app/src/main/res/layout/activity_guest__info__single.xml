@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_guest__info__single"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.home.guesthouse.Guest_Info_Single">
+    <TextView
+        android:text="Guest Name"
+        android:layout_width="match_parent"
+        android:layout_marginTop="28dp"
+        android:id="@+id/singleGuestName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="normal|bold"
+        android:layout_height="40dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Guest Room Number"
+        android:layout_width="match_parent"
+        android:id="@+id/singleRoomNum"
+        android:textStyle="normal|bold"
+        android:layout_height="40dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/singleGuestName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Guest Address"
+        android:layout_width="match_parent"
+        android:id="@+id/singleGuestAddress"
+        android:textStyle="normal|bold"
+        android:layout_height="40dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/singleRoomNum"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Guest Health Status"
+        android:layout_width="match_parent"
+        android:id="@+id/singleGuestHealth"
+        android:textStyle="normal|bold"
+        android:layout_height="40dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/singleGuestAddress"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/removeBtn"
+        android:background="@drawable/btn_bg"
+        android:layout_below="@+id/singleGuestHealth"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="116dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="100dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_admin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.home.guesthouse.AdminActivity"
+    android:background="@drawable/ed_bg"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editTextName"
+            android:background="@drawable/ed_bg"
+            android:hint="Full Name"
+            android:textColor="@color/String_color"
+            android:layout_margin="10dp"
+            android:textColorHint="@color/String_color"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editTextRoomNum"
+            android:background="@drawable/ed_bg"
+            android:hint="Room Number"
+            android:layout_margin="10dp"
+            android:textColor="@color/String_color"
+            android:textColorHint="@color/String_color"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editTextAdress"
+            android:background="@drawable/ed_bg"
+            android:hint="Adress of Guest"
+            android:layout_margin="10dp"
+            android:textColor="@color/String_color"
+            android:textColorHint="@color/String_color"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editTextHealthStatus"
+            android:background="@drawable/ed_bg"
+            android:hint="Health Status"
+            android:textColor="@color/String_color"
+            android:layout_margin="10dp"
+            android:textColorHint="@color/String_color"
+            />
+
+        <Button
+            android:text="Add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/AddGuestBtn"
+            android:background="@drawable/btn_bg"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+</RelativeLayout>

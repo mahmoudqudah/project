@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/actiom_add"
+    android:icon="@mipmap/ic_note_add_white_24dp"
+    app:showAsAction="always"
+    android:title="add_post" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="Log Out"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_about"
+        android:title="About App"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/actiom_info"
+        android:icon="@drawable/info"
+        app:showAsAction="always"
+        android:title="add_post" />
+
+    <item
+        android:id="@+id/actiom_admin"
+        android:icon="@drawable/login_icon"
+        app:showAsAction="always"
+        android:title="add_post" />
+
+</menu>
